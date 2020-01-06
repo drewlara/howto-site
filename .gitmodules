@@ -1,0 +1,3 @@
+[submodule "themes/infinity-hugo-howto"]
+	path = themes/infinity-hugo-howto
+	url = https://github.com/drewlara/infinity-hugo-howto.git

@@ -1,56 +1,77 @@
 baseURL = "https://www.example.com"
 languageCode = "en-us"
-title = "Infinity Comming Soon Template By Themefisher"
+title = "HOWTO"
 theme = "infinity-hugo-howto"
 
 [params]
 
     # Navigation
     [params.navigation]
-        logo = "images/logo.png"
+        logo = "images/logo-howto.png"
         home = "Home"
         about = "About"
-        service = "Services"
+        service = "Events"
         contact = "Contact"
 
     # Hero Area
     [params.hero]
         enable      = true
-        bg          = "images/header-bg.jpg"
-        title       = "HOWTO"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-        btnText     = "Get Started"
-        countdownYear = "2019"
-        countdownMonth = "12"
-        countdownDay  = "27"
+        bg          = "images/360_unsplash_header-bg.jpg"
+        title       = "Hispanic Organizations Working Together as One"
+        subtitle    = "HOWTO is an alliance comprised of 8 partnering Hispanic professional organizations working together to build synergies through economies of scale and focus on wealth creation in the Central Texas region."
 
     # About Section
     [params.about]
         enable      = true
-        heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
+        heading     = "About the alliance"
+        description = "HOWTO meets regularly to exchange ideas, collaborate on events, discuss topics and issues in the community, by building bridges between business and professional organizations. The HOWTO alliance includes:"
+        
+        [[params.about.partner]]
+            name = "BXN en español (Business Exchange Network in Spanish)"
+        [[params.about.partner]]
+            name = "GAHCC (Greater Austin Hispanic Chamber of Commerce)"
+        [[params.about.partner]]
+            name = "HBAA (Hispanic Bar Association of Austin)"
+        [[params.about.partner]]
+            name = "HWNT (Hispanic Women's Network of Texas, Austin Chapter)"
+        [[params.about.partner]]
+            name = "NAHREP (National Association of Hispanic Real Estate Professionals, Austin Chapter)"
+        [[params.about.partner]]
+            name = "Prospanica (formerly National Society of Hispanic MBAs)"
+        [[params.about.partner]]
+            name = "SHPE (Society of Hispanic Professional Engineers)"
+        [[params.about.partner]]
+            name = "YHPAA (Young Hispanic Professional Association of Austin)"
 
         [[params.about.sliderItem]]
-            image   = "images/about/1.jpg"
+            image   = "images/about/partner-bxn.png"
         [[params.about.sliderItem]]
-            image   = "images/about/2.jpg"
+            image   = "images/about/partner-gahcc.png"
         [[params.about.sliderItem]]
-            image   = "images/about/3.jpg"
+            image   = "images/about/partner-hbaa.png"
         [[params.about.sliderItem]]
-            image   = "images/about/2.jpg"
+            image   = "images/about/partner-hwnt.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/partner-nahrep.png"
+        [[params.about.sliderItem]]
+            image   = "images/about/partner-prospanica.png"
+        [[params.about.sliderItem]]
+            image   = "images/about/partner-shpe.png"
+        [[params.about.sliderItem]]
+            image   = "images/about/partner-yhpaa.png"
 
     
-    # Service Section
+    # Initiatives Section
     [params.service]
         enable      = true
-        title       = "Find Better Solutions Build Better Products"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+        title       = "2020 HOWTO Initiatives"
+        subtitle    = ""
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
-            icon    = "tf-strategy"
-            title   = "Fully Responsive"
+            icon    = "tf-ion-android-people"
+            title   = "Membership mixers"
             description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
             delay   = "0s"
 
@@ -58,8 +79,8 @@ theme = "infinity-hugo-howto"
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
-            icon    = "tf-circle-compass"
-            title   = "Speed Optimized"
+            icon    = "tf-ion-checkmark"
+            title   = "Get out the vote"
             description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
             delay   = "0.2s"
 
@@ -67,8 +88,8 @@ theme = "infinity-hugo-howto"
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
-            icon    = "tf-anchor2"
-            title   = "Tons of Feature"
+            icon    = "tf-ion-ios-list-outline"
+            title   = "Census 2020"
             description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
             delay   = "0.4s"
 
@@ -76,56 +97,21 @@ theme = "infinity-hugo-howto"
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
-            icon    = "tf-globe"
-            title   = "Fully SEO Optimized"
+            icon    = "tf-ion-ios-people"
+            title   = "Supply Drive for Teachers"
             description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
             delay   = "0.6s"
-        
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-strategy"
-            title   = "Fully Responsive"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "0.8s"
 
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-circle-compass"
-            title   = "Speed Optimized"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "1s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-anchor2"
-            title   = "Tons of Feature"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "1.2s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-globe"
-            title   = "Fully SEO Optimized"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "1.5s"
+    
     
     
     # Call to Action Section
     [params.cta]
         enable      = true
-        bg          = "images/call-to-action.jpg"
-        title       = "Subscribe to our mailing list"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+        title       = "Upcoming Events"
+        subtitle    = ""
 
     [params.contact]
         enable      = true
-        title       = "Get In Touch"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+        title       = "Contact Us"
+        subtitle    = ""

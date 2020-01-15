@@ -10,7 +10,7 @@ theme = "infinity-hugo-howto"
         logo = "images/logo-howto.png"
         home = "Home"
         about = "About"
-        service = "Events"
+        service = "Initiatives"
         contact = "Contact"
 
     # Hero Area
@@ -114,4 +114,7 @@ theme = "infinity-hugo-howto"
     [params.contact]
         enable      = true
         title       = "Contact Us"
-        subtitle    = ""
+        facebookIcon = "images/facebook.png"
+        facebookLink = ""
+        eventbriteIcon = "images/eventbrite.png"
+        eventbriteLink = ""

@@ -72,7 +72,7 @@ theme = "infinity-hugo-howto"
             # use delay for reveal items one by one
             icon    = "tf-ion-android-people"
             title   = "Membership mixers"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            description = "PLACEHOLDER TEXT"
             delay   = "0s"
 
         [[params.service.serviceItem]]
@@ -81,7 +81,7 @@ theme = "infinity-hugo-howto"
             # use delay for reveal items one by one
             icon    = "tf-ion-checkmark"
             title   = "Get out the vote"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            description = "The Importance of Voting  is one of the most important rights and responsibilities that U.S. citizens have. About 150 million American citizens are qualified to vote. Unfortunately, many don’t. They give up on a chance to choose leaders and representatives who will do things that are important to them. The HOWTO nonpartisan initiative is to encourage members of each of the groups to vote."
             delay   = "0.2s"
 
         [[params.service.serviceItem]]
@@ -90,7 +90,7 @@ theme = "infinity-hugo-howto"
             # use delay for reveal items one by one
             icon    = "tf-ion-ios-list-outline"
             title   = "Census 2020"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            description = "The 2020 Census will provide a snapshot of our nation—our population, where we live, and so much more. The results are critically important because this once-a-decade census data helps businesses, researchers, and communities make decisions. The data can help inform where your community needs a new fire department, more funding for school lunches, or new roads."
             delay   = "0.4s"
 
         [[params.service.serviceItem]]
@@ -99,7 +99,7 @@ theme = "infinity-hugo-howto"
             # use delay for reveal items one by one
             icon    = "tf-ion-ios-people"
             title   = "Supply Drive for Teachers"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            description = "PLACEHOLDER TEXT"
             delay   = "0.6s"
 
     
